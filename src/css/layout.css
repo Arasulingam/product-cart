@@ -1,0 +1,15 @@
+.layout-container {
+  background-color: #e4e4e7;
+}
+
+.main-content {
+  width: 1200px;
+  max-width: 100%;
+  margin: auto;
+  padding: 20px;
+  transition: transform 0.5s;
+}
+
+.main-content.shifted {
+  transform: translateX(-224px);
+}
